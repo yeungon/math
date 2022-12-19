@@ -1,13 +1,12 @@
 {
-	"name": "unicorn-fun",
-	"version": "0.0.0",
-	"description": "My awesome module",
+	"name": "math-generator",
+	"version": "0.0.1",
+	"description": "Math generator that works",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "yeungon/math",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Vuong Nguyen",		
+		"url": "https://twitter.com/vuong"
 	},
 	"type": "module",
 	"exports": "./index.js",
@@ -21,8 +20,8 @@
 		"index.js"
 	],
 	"keywords": [
-		"unicorn",
-		"fun"
+		"math",
+		"math generator"
 	],
 	"dependencies": {},
 	"devDependencies": {

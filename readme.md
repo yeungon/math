@@ -1,46 +1,25 @@
-# node-module-boilerplate
-
-> Boilerplate to kickstart creating a Node.js module
-
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
-
-Also check out [`node-cli-boilerplate`](https://github.com/sindresorhus/node-cli-boilerplate).
-
-## Getting started
-
-**Click the "Use this template" button.**
-
-Alternatively, create a new directory and then run:
-
-```sh
-curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1
-```
-
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
 
 ---
 
-**Remove everything from here and above**
-
----
-
-# unicorn-fun
+# math-generator
 
 > My awesome module
+
+Inspirated by https://github.com/lukew3/mathgenerator, https://www.mathgoodies.com/worksheets/generator and https://mathsbot.com/
 
 ## Install
 
 ```sh
-npm install unicorn-fun
+npm install math-generator
 ```
 
 ## Usage
 
 ```js
-import unicornFun from 'unicorn-fun';
+import {random} from 'math-generator';
 
-unicornFun('unicorns');
-//=> 'unicorns & rainbows'
+random(10);
+//=> '[1 - > 9]'
 ```
 
 ## API
@@ -62,4 +41,4 @@ Type: `object`
 Type: `string`\
 Default: `'rainbows'`
 
-Lorem ipsum.
+

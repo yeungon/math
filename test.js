@@ -1,13 +1,13 @@
 import test from 'ava';
-import unicornFun from './index.js';
+import mathGenerator from './index.js';
 
 test('main', t => {
 	t.throws(() => {
-		unicornFun(123);
+		mathGenerator(123);
 	}, {
 		instanceOf: TypeError,
 		message: 'Expected a string, got number',
 	});
 
-	t.is(unicornFun('unicorns'), 'unicorns & rainbows');
+	t.is(mathGenerator('unicorns'), 'unicorns & toan');
 });
