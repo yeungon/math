@@ -4,6 +4,7 @@ import {
 	basicAlgebra,
 	absoluteDifference,
 	comparisonFraction,
+	cubeRoot,
 } from 'math-generator';
 
 console.log(random(100));
@@ -12,3 +13,6 @@ console.log(absoluteDifference(96, -27));
 
 console.log(addition(100, 10));
 console.log(comparisonFraction());
+console.log(cubeRoot());
+console.log(cubeRoot(true, 80));
+console.log(cubeRoot(true, 37));
