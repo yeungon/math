@@ -3,9 +3,9 @@
 
 # math-generator
 
-> My awesome module
+> Math automatically.
 
-Inspirated by https://github.com/lukew3/mathgenerator, https://www.mathgoodies.com/worksheets/generator and https://mathsbot.com/
+Inspirated and ported from the Python package https://github.com/lukew3/mathgenerator. Also learn and added some functions from https://www.mathgoodies.com/worksheets/generator and https://mathsbot.com/
 
 ## Install
 

@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"repository": "yeungon/math",
 	"author": {
-		"name": "Vuong Nguyen",		
+		"name": "Vuong Nguyen",
 		"url": "https://twitter.com/vuong"
 	},
 	"type": "module",
@@ -23,9 +23,27 @@
 		"math",
 		"math generator"
 	],
-	"dependencies": {},
 	"devDependencies": {
 		"ava": "^4.3.1",
+		"eslint": "^8.30.0",
+		"eslint-plugin-ava": "^13.2.0",
 		"xo": "^0.51.0"
-	}
+	},
+	"eslintConfig": {
+		"env": {
+			"es6": true
+		},
+		"parserOptions": {
+			"ecmaVersion": "latest",
+			"sourceType": "module"
+		},
+		"plugins": [
+			"ava"
+		],
+		"rules": {
+			"ava/assertion-arguments": "error",
+			"ava/...": "error"
+        },
+		"extends": "plugin:ava/recommended"
+    }
 }

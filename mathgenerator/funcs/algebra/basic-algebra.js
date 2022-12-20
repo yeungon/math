@@ -1,15 +1,23 @@
+import {random} from '../../utilities/random.js';
 /**
- * Least Common Multiplier
+ * mathgenerator/utilities/random.js
+ * the Least Common Multiplier
  * @return {random value} least common multiplier of two numbers.
  * @example
- * Math.lcm(4, 12)
+ * 
  * //-> 12
- * @test
- * Math.lcm(6, 7)
+ * @origin idea https://github.com/lukew3/mathgenerator/blob/7819215acacafa59e0951e84343f1cd62f701bb6/mathgenerator/funcs/algebra/basic_algebra.py
+ * executing Math.lcm(6, 7) and get the following
  * //-> 42
  */
-function random(number) {
-	return Math.floor(Math.random() * number);
+
+function basic_algebra(max = 10, format = 'string'){
+    const a = random(max);
+    const b = random(max);
+    const c = random(max);
+    return `${a} - ${b} -${c}`
 }
 
-export { random };
+
+export {basic_algebra};
+
