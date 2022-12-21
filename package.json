@@ -1,6 +1,6 @@
 {
 	"name": "math-generator",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "Math generator that works",
 	"license": "MIT",
 	"repository": "yeungon/math",
@@ -15,12 +15,10 @@
 	},
 	"scripts": {
 		"test": "xo && ava"
-	},
-	"files": [
-		"index.js"
-	],
+	},	
 	"keywords": [
 		"math",
+		"maths",
 		"math generator"
 	],
 	"devDependencies": {

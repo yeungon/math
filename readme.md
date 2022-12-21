@@ -1,11 +1,13 @@
 
 ---
 
-# math-generator
+# math-generator (WIP)
 
-> Math automatically.
+> Work in progress - Generating mathematics problem automatically.
 
-Inspirated and ported from the Python package https://github.com/lukew3/mathgenerator. Also learn and added some functions from https://www.mathgoodies.com/worksheets/generator and https://mathsbot.com/
+Inspirated and ported from the Python package https://github.com/lukew3/mathgenerator. 
+
+Also learn and added some functions from https://www.mathgoodies.com/worksheets/generator and https://mathsbot.com/
 
 ## Install
 
@@ -24,21 +26,16 @@ random(10);
 
 ## API
 
-### unicornFun(input, options?)
+### random(input, options?)
 
 #### input
 
-Type: `string`
-
-Lorem ipsum.
+Type: `number`
 
 #### options
 
-Type: `object`
+Type: `number`
 
-##### postfix
 
-Type: `string`\
-Default: `'rainbows'`
 
 
