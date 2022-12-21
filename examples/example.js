@@ -7,6 +7,7 @@ import {
 	cubeRoot,
 	fractionDivision,
 	division,
+	exponentiation,
 } from 'math-generator';
 
 console.log(random(1));
@@ -20,3 +21,4 @@ console.log(cubeRoot(true, 80));
 console.log(cubeRoot(true, 37));
 console.log(fractionDivision());
 console.log(division());
+console.log(exponentiation());
