@@ -5,6 +5,7 @@ import {
 	absoluteDifference,
 	comparisonFraction,
 	cubeRoot,
+	fractionDivision,
 } from 'math-generator';
 
 console.log(random(100));
@@ -16,3 +17,4 @@ console.log(comparisonFraction());
 console.log(cubeRoot());
 console.log(cubeRoot(true, 80));
 console.log(cubeRoot(true, 37));
+console.log(fractionDivision());
