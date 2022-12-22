@@ -9,6 +9,7 @@ import {
 	fractionDivision,
 	division,
 	exponentiation,
+	factorial,
 } from 'math-generator';
 
 console.log(random(1));
@@ -26,3 +27,5 @@ console.log(exponentiation());
 console.log(isEmptyObject());
 console.log(isEmptyObject({}));
 console.log(isEmptyObject({key: 'value'}));
+console.log(factorial());
+console.log(factorial(true, 5));

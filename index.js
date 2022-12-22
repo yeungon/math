@@ -8,4 +8,5 @@ export {cubeRoot} from './src/funcs/basic_math/cube-root.js';
 export {fractionDivision} from './src/funcs/basic_math/divide-fractions.js';
 export {division} from './src/funcs/basic_math/division.js';
 export {exponentiation} from './src/funcs/basic_math/exponentiation.js';
+export {factorial} from './src/funcs/basic_math/factorial.js';
 export {basicAlgebra} from './src/funcs/algebra/basic-algebra.js';

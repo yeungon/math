@@ -1,5 +1,5 @@
 import test from 'ava';
-import {random, cubeRoot, exponentiation, isEmptyObject} from './index.js';
+import {random, cubeRoot, exponentiation, isEmptyObject, factorial} from './index.js';
 
 test('utilities', t => {
 	t.is(typeof random(), 'number');
@@ -16,5 +16,10 @@ test('cubeRoot', t => {
 
 test('exponentiation', t => {
 	t.is(exponentiation(true, 5, 2), 25);
+});
+
+test('factorial', t => {
+	t.is(factorial(true, 5), 120);
+	t.is(factorial(true, 7), 5040);
 });
 
