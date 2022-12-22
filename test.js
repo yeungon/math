@@ -1,8 +1,13 @@
 import test from 'ava';
-import {random, cubeRoot, exponentiation} from './index.js';
+import {random, cubeRoot, exponentiation, isEmptyObject} from './index.js';
 
-test('main', t => {
+test('utilities', t => {
 	t.is(typeof random(), 'number');
+	t.is(isEmptyObject(), true);
+	t.is(isEmptyObject({}), true);
+	t.is(isEmptyObject(null), true);
+	t.is(isEmptyObject({key: ''}), false);
+	t.is(isEmptyObject({key: 'value'}), false);
 });
 
 test('cubeRoot', t => {

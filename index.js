@@ -1,4 +1,5 @@
 export {random} from './src/utilities/random.js';
+export {isEmptyObject} from './src/utilities/is-empty-object.js';
 export {checkType} from './src/utilities/check-type.js';
 export {absoluteDifference} from './src/funcs/basic_math/absolute-difference.js';
 export {addition} from './src/funcs/basic_math/addition.js';

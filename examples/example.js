@@ -1,5 +1,6 @@
 import {
 	random,
+	isEmptyObject,
 	addition,
 	basicAlgebra,
 	absoluteDifference,
@@ -22,3 +23,6 @@ console.log(cubeRoot(true, 37));
 console.log(fractionDivision());
 console.log(division());
 console.log(exponentiation());
+console.log(isEmptyObject());
+console.log(isEmptyObject({}));
+console.log(isEmptyObject({key: 'value'}));
